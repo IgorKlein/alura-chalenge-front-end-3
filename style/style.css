@@ -14,7 +14,7 @@ body {
 
 .header {
     height: 115px;
-    width: 1136px;
+    width: 100%;
     /* background-color: lightgray; */
 
     display: flex;
@@ -24,6 +24,7 @@ body {
 
 .logo-searchbar {
     height: 50px;
+    margin-left: 10%;
 
     display: flex;
     align-items: center;
@@ -57,7 +58,8 @@ body {
     width: 182px;
     border: 1px solid rgba(42, 122, 228, 1);
     margin-right: 32px;
-    
+    text-decoration: none;
+    color: rgba(42, 122, 228, 1);
 
     display: flex;
     align-items: center;
@@ -65,22 +67,55 @@ body {
 }
 
 .button-text {
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(42, 122, 228, 1);
+    color: inherit;
+}
+
+.btn-login {
+    margin-right: 10%;
+}
+
+/* Banner ----------------------------- */
+.banner {
+    height: 50vh;
+    width: 100%;
+    background: rgba(245, 245, 245, 1) url(/source/banner-image.png) no-repeat scroll;
+    background-position: 50% 50%;
+}
+
+.banner-container {
+    margin-top: 30vh;
+    margin-left: 10%;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;    
+
+}
+
+.banner-title {
+    font-size: 52px;
+    margin-bottom: 16px;
+    color: white;
+
+}
+
+.banner-subtitle {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.btn-strengh {
+    background-color: rgba(42, 122, 228, 1);
+    color: white;
 }
 
 /* Main ------------------------------- */
 
 .container {
     background-color: red;
-}
-
-.banner {
-    height: 352px;
-    background-color: lightgreen;
 }
 
 .galery {
