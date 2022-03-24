@@ -1,0 +1,100 @@
+
+.header {
+    height: 20vh;
+    max-height: 115px;
+    min-height: 55px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-searchbar {
+    height: 50px;
+    width: 53%;
+    margin-left: 10%;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    max-height: 115px;
+    margin-right: 32px;
+}
+
+.search-form {
+    width: 65%;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 16px;
+
+    color: rgba(162, 162, 162, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    background: rgba(245, 245, 245, 1) url(../source/mag-icon.png) no-repeat scroll 5px 5px;
+    background-position: 95% 50%;
+}
+
+.button {
+    height: 51px;
+    width: 16%;
+    border: 1px solid rgba(42, 122, 228, 1);
+    margin-right: 32px;
+    text-decoration: none;
+    color: rgba(42, 122, 228, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: inherit;
+}
+
+.btn-login {
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-searchbar {
+      width: 75%;
+      margin-left: 4.1%;
+    }
+
+    .logo-image {
+        max-width: 100px;
+    }
+
+    .search-form {
+        width: 50%;
+    }
+
+    .search-form input {
+        font-size: 14px;
+    }
+
+    .button {
+        height: 40px;
+        width: 23%;
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+
+    .btn-login {
+        margin-right: 4.1%;
+    }
+  }
